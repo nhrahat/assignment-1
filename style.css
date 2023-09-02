@@ -20,11 +20,11 @@ body {
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
 .contact-button {
@@ -100,7 +100,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -129,7 +130,7 @@ section{
     justify-content: space-around;
 }
 
- .info-name {
+.info-name {
     font-size: 20px;
     color: #757575;
 }
@@ -141,79 +142,90 @@ section{
 }
 
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
-.skill{
+
+.skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
     color: #757575;
 }
 
-.resume-content{
+.resume-content {
     display: flex;
     gap: 24px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
- .title-2{
+
+.title-2 {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
     margin-bottom: 10px;
 }
- .sub-title{
+
+.sub-title {
     color: #757575;
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
 }
- .description{
+
+.description {
     color: #757575;
 }
 
-.resume-button{
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
 
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
 }
 
-input{
+input {
     height: 64px;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
 }
+
 footer {
     text-align: center;
 }
