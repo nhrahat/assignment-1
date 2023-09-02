@@ -74,6 +74,11 @@ nav li {
     margin: 0 200px;
 }
 
+.intro-div img {
+    position: relative;
+    left: 155px;
+}
+
 .fullname {
     font-weight: 700;
     font-size: 85px;
